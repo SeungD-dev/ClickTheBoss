@@ -107,7 +107,7 @@ public class HeroKnight : MonoBehaviour {
             m_animator.SetTrigger("Hurt");
 
         //Attack
-        else if(Input.GetMouseButtonDown(0) && m_timeSinceAttack > 0.25f && !m_rolling)
+        else if(Input.GetMouseButtonDown(0)&& m_timeSinceAttack > 0.25f && !m_rolling)
         {
             m_currentAttack++;
 
